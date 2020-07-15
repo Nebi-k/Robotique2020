@@ -2,6 +2,8 @@
 import click
 import spytank
 
+spytank.init()
+
 z= "z: avancer"
 s= "s: reculer"
 q= "q: tourner a gauche"
