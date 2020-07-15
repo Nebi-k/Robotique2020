@@ -16,7 +16,7 @@ continuer = True
 vitesse = 100
 
 while continuer:
-    lettre = click.getcha
+    lettre = click.getchar(">>")
     if  lettre == "z":
         spytank.avance(vitesse)
     elif lettre == "s":
