@@ -9,8 +9,9 @@ d= "d: tourner a droite"
 x= "x: stop"
 a= "a: augmenter vitesse"
 e= "e: diminuer la vitesse"
+p= "p: quitter"
 
-print(z,s,q,d,x,a,e)
+print(z,s,q,d,x,a,e,p)
 continuer = True
 vitesse = 100
 
