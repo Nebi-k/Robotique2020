@@ -16,6 +16,8 @@ tts.save("texte2.mp3")
 os.system("mpg321 texte1.mp3")
 os.system("mpg321 texte2.mp3")
 
+os.system("rm texte1.mp3 texte2.mp3")
+
 print(texte1)
 print(texte2)
 
