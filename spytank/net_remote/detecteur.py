@@ -4,13 +4,13 @@ import time
 
 class distance(Thread):
 
-    def __init__(self,stop)
+    def __init__(self,stop):
         Thread.__init__(self)
         self.stop = stop
     
     def run(self):
         while True:
             dist =spytank.litDistance()
-            if dist < 30:
+            if dist[0] < 30:
                 spytank.stop()
             time.sleep(0.5)
